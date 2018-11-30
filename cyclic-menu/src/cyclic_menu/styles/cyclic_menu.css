@@ -1,0 +1,28 @@
+.custom-menu-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+    background-color: #00ffff;
+}
+
+.custom-menu-link {
+    display: inline-block;
+    margin: 18px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #888888;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+.custom-menu-link__active {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    transition: all 300ms;
+}
